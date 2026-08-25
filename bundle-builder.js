@@ -1,5 +1,5 @@
 /* ==========================================================
-   CORE Six Column Bundle Builder JS
+   GALAXY Six Column Bundle Builder JS
    Include after the bundle builder HTML.
    ========================================================== */
 
@@ -17,12 +17,12 @@
   };
 
   const lines = {
-    0: 'CORE only. Everything you need to get booked, get paid and keep moving.',
-    1: 'CORE plus one focused package. A sharper setup for your next move.',
-    2: 'Two packages added. Your CORE is starting to build around the way you work.',
+    0: 'GALAXY only. Everything you need to get booked, get paid and keep moving.',
+    1: 'GALAXY plus one focused package. A sharper setup for your next move.',
+    2: 'Two packages added. Your GALAXY is starting to build around the way you work.',
     3: 'Three packages active. More power, better value, cleaner business momentum.',
     4: 'Four packages selected. A serious setup with strong bundle pricing applied.',
-    5: 'Complete CORE setup. All five packages selected with the best bundle value active.'
+    5: 'Complete GALAXY setup. All five packages selected with the best bundle value active.'
   };
 
   function formatGBP(value) {

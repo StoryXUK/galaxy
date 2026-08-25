@@ -1,4 +1,4 @@
-/* New CORE sections, translated into the GALAXY visual system. */
+/* New GALAXY sections, translated into the GALAXY visual system. */
 .section-panel{padding:96px 5.1vw}
 .section-panel>.container{width:min(1440px,100%);margin:0 auto}
 .section-panel h2,.section-panel h3{font-family:var(--serif);font-weight:400;letter-spacing:-.025em}
