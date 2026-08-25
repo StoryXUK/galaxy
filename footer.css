@@ -1,0 +1,146 @@
+.site-logo {
+  display: block;
+  width: clamp(230px, 19vw, 330px);
+  line-height: 0;
+}
+
+.site-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.fibodo-footer {
+  background: #073f36;
+  color: #f8f4ec;
+  padding: 72px 5.1vw 28px;
+}
+
+.fibodo-footer .container {
+  width: min(1440px, 100%);
+  margin: 0 auto;
+}
+
+.fibodo-footer__grid {
+  display: grid;
+  grid-template-columns: minmax(280px, 1.7fr) repeat(3, minmax(150px, 1fr));
+  gap: 48px;
+}
+
+.fibodo-footer__logo {
+  display: block;
+  width: min(360px, 100%);
+  padding: 15px;
+  background: #f4f0e8;
+  line-height: 0;
+}
+
+.fibodo-footer__logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.fibodo-footer__social,
+.fibodo-footer__links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fibodo-footer__social {
+  display: flex;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.fibodo-footer__social a {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(248, 244, 236, .45);
+  border-radius: 50%;
+  color: inherit;
+  transition: background-color .2s ease, color .2s ease, border-color .2s ease;
+}
+
+.fibodo-footer__social a:hover,
+.fibodo-footer__social a:focus-visible {
+  background: #86b968;
+  border-color: #86b968;
+  color: #073f36;
+}
+
+.fibodo-footer__social svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.fibodo-footer__heading {
+  margin: 0 0 24px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .11em;
+  text-transform: uppercase;
+}
+
+.fibodo-footer__links {
+  display: grid;
+  gap: 12px;
+}
+
+.fibodo-footer__links a {
+  color: rgba(248, 244, 236, .78);
+  font-size: 14px;
+  text-decoration: none;
+  transition: color .2s ease;
+}
+
+.fibodo-footer__links a:hover,
+.fibodo-footer__links a:focus-visible {
+  color: #86b968;
+}
+
+.fibodo-footer__bar {
+  margin-top: 58px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(248, 244, 236, .25);
+}
+
+.fibodo-footer__copy {
+  margin: 0;
+  color: rgba(248, 244, 236, .65);
+  font-size: 13px;
+}
+
+@media (max-width: 980px) {
+  .fibodo-footer__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .fibodo-footer__brand {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 650px) {
+  .site-logo {
+    width: 210px;
+  }
+
+  .fibodo-footer {
+    padding: 54px 22px 24px;
+  }
+
+  .fibodo-footer__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 38px 24px;
+  }
+
+  .fibodo-footer__brand,
+  .fibodo-footer__col--legal {
+    grid-column: 1 / -1;
+  }
+}
